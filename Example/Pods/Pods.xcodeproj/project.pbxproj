@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12558566A996A2CD7E88F2A907DE9250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		50A2EDB6589F29CA25B318CFF1FCB25F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5CA8D7D6764ED007EFF9C983AF9203DB /* WJGlobalTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E47990E3E85BF87D1B9C0F540A87278 /* WJGlobalTimer-dummy.m */; };
+		A5D271678CBC4F304A1054542C56A7FD /* Pods-WJGlobalTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BACDAA1249A7E97D7D452DB1592177F1 /* Pods-WJGlobalTimer_Example-dummy.m */; };
+		E5220CEF1FDA93470009BAA5 /* ZXCBlockQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E5220CE61FDA93470009BAA5 /* ZXCBlockQueue.m */; };
+		E5220CF01FDA93470009BAA5 /* ZXCCountDownBlockObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E5220CE81FDA93470009BAA5 /* ZXCCountDownBlockObj.m */; };
+		E5220CF11FDA93470009BAA5 /* ZXCCycleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5220CEA1FDA93470009BAA5 /* ZXCCycleTimer.m */; };
+		E5220CF21FDA93470009BAA5 /* ZXCQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E5220CEC1FDA93470009BAA5 /* ZXCQueue.m */; };
+		FD5BE03DD8102A565601C875ACEA2D7A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 467905E1F7A00A303D6B92D842B3EDCA /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B568A8F83DA0A4F7EE66A3E7FAC82960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E433295D69518797F69D4A11B5F6492;
+			remoteInfo = WJGlobalTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		467905E1F7A00A303D6B92D842B3EDCA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WJGlobalTimer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4E9F72E8C2956A19CE85605737AC4E88 /* Pods-WJGlobalTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJGlobalTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E47990E3E85BF87D1B9C0F540A87278 /* WJGlobalTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJGlobalTimer-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74BDB4065A0A2B352357742D273A9AD6 /* Pods-WJGlobalTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJGlobalTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		83B4D7F424B85CCCF28E8669E29DD724 /* WJGlobalTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJGlobalTimer-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AB59B6EE2B610F4FEFDF61853CBAB6 /* libPods-WJGlobalTimer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJGlobalTimer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79C76F11AAC1B09CA60A43B6891AD46 /* Pods-WJGlobalTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJGlobalTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BACDAA1249A7E97D7D452DB1592177F1 /* Pods-WJGlobalTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJGlobalTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		CCD3B1439C6892CC0D174122DA7DE48A /* Pods-WJGlobalTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJGlobalTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D827EA9B46CE1A41CAAD1C96111A5310 /* libWJGlobalTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWJGlobalTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC36CBF595EE9C77BAD8471B82FB6184 /* Pods-WJGlobalTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJGlobalTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E076E74F752BB0EAC62823F0FC176B1C /* Pods-WJGlobalTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJGlobalTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5220CE51FDA93470009BAA5 /* ZXCBlockQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCBlockQueue.h; sourceTree = "<group>"; };
+		E5220CE61FDA93470009BAA5 /* ZXCBlockQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCBlockQueue.m; sourceTree = "<group>"; };
+		E5220CE71FDA93470009BAA5 /* ZXCCountDownBlockObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCCountDownBlockObj.h; sourceTree = "<group>"; };
+		E5220CE81FDA93470009BAA5 /* ZXCCountDownBlockObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCCountDownBlockObj.m; sourceTree = "<group>"; };
+		E5220CE91FDA93470009BAA5 /* ZXCCycleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCCycleTimer.h; sourceTree = "<group>"; };
+		E5220CEA1FDA93470009BAA5 /* ZXCCycleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCCycleTimer.m; sourceTree = "<group>"; };
+		E5220CEB1FDA93470009BAA5 /* ZXCQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCQueue.h; sourceTree = "<group>"; };
+		E5220CEC1FDA93470009BAA5 /* ZXCQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCQueue.m; sourceTree = "<group>"; };
+		E5220CED1FDA93470009BAA5 /* ZXCGlobalTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCGlobalTimer.h; sourceTree = "<group>"; };
+		EC90FFFAB4C7FAB33B243099C4977C32 /* WJGlobalTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJGlobalTimer.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E49541FB5DFD0B392AC663E04495167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12558566A996A2CD7E88F2A907DE9250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996B6B74C2521B3945817CB3AAFF14CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A2EDB6589F29CA25B318CFF1FCB25F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171EAD281B171CC85079BED127E2E51C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57750C12A36725007823DB01FE894175 /* Pods-WJGlobalTimer_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BAC71C3C4FB53B006E1BECAC421E75C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8EFF372A9625D4D8E78999003EACD2 /* WJGlobalTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B8EFF372A9625D4D8E78999003EACD2 /* WJGlobalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E5220CE01FDA93470009BAA5 /* Classes */,
+				467905E1F7A00A303D6B92D842B3EDCA /* ReplaceMe.m */,
+				7B63047EF2093874A0B594BEF45051BC /* Support Files */,
+			);
+			name = WJGlobalTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51D48FA4D4127C955A2250DD287930F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94AB59B6EE2B610F4FEFDF61853CBAB6 /* libPods-WJGlobalTimer_Example.a */,
+				D827EA9B46CE1A41CAAD1C96111A5310 /* libWJGlobalTimer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57750C12A36725007823DB01FE894175 /* Pods-WJGlobalTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC36CBF595EE9C77BAD8471B82FB6184 /* Pods-WJGlobalTimer_Example-acknowledgements.markdown */,
+				E076E74F752BB0EAC62823F0FC176B1C /* Pods-WJGlobalTimer_Example-acknowledgements.plist */,
+				BACDAA1249A7E97D7D452DB1592177F1 /* Pods-WJGlobalTimer_Example-dummy.m */,
+				A79C76F11AAC1B09CA60A43B6891AD46 /* Pods-WJGlobalTimer_Example-frameworks.sh */,
+				74BDB4065A0A2B352357742D273A9AD6 /* Pods-WJGlobalTimer_Example-resources.sh */,
+				4E9F72E8C2956A19CE85605737AC4E88 /* Pods-WJGlobalTimer_Example.debug.xcconfig */,
+				CCD3B1439C6892CC0D174122DA7DE48A /* Pods-WJGlobalTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-WJGlobalTimer_Example";
+			path = "Target Support Files/Pods-WJGlobalTimer_Example";
+			sourceTree = "<group>";
+		};
+		7B63047EF2093874A0B594BEF45051BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC90FFFAB4C7FAB33B243099C4977C32 /* WJGlobalTimer.xcconfig */,
+				5E47990E3E85BF87D1B9C0F540A87278 /* WJGlobalTimer-dummy.m */,
+				83B4D7F424B85CCCF28E8669E29DD724 /* WJGlobalTimer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJGlobalTimer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1BAC71C3C4FB53B006E1BECAC421E75C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				51D48FA4D4127C955A2250DD287930F3 /* Products */,
+				171EAD281B171CC85079BED127E2E51C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5220CE01FDA93470009BAA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5220CE31FDA93470009BAA5 /* ZXCGlobalTimer */,
+			);
+			name = Classes;
+			path = WJGlobalTimer/Classes;
+			sourceTree = "<group>";
+		};
+		E5220CE31FDA93470009BAA5 /* ZXCGlobalTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E5220CE41FDA93470009BAA5 /* Code */,
+				E5220CED1FDA93470009BAA5 /* ZXCGlobalTimer.h */,
+			);
+			path = ZXCGlobalTimer;
+			sourceTree = "<group>";
+		};
+		E5220CE41FDA93470009BAA5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				E5220CE51FDA93470009BAA5 /* ZXCBlockQueue.h */,
+				E5220CE61FDA93470009BAA5 /* ZXCBlockQueue.m */,
+				E5220CE71FDA93470009BAA5 /* ZXCCountDownBlockObj.h */,
+				E5220CE81FDA93470009BAA5 /* ZXCCountDownBlockObj.m */,
+				E5220CE91FDA93470009BAA5 /* ZXCCycleTimer.h */,
+				E5220CEA1FDA93470009BAA5 /* ZXCCycleTimer.m */,
+				E5220CEB1FDA93470009BAA5 /* ZXCQueue.h */,
+				E5220CEC1FDA93470009BAA5 /* ZXCQueue.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619428875988CBFEE681061509AA0731 /* Pods-WJGlobalTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA7B514D3EF8FDC2CA1992AEDBCD130 /* Build configuration list for PBXNativeTarget "Pods-WJGlobalTimer_Example" */;
+			buildPhases = (
+				8360A15B238F84E9CF754D1652388DFB /* Sources */,
+				0E49541FB5DFD0B392AC663E04495167 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1610E34320FFF6EA6B8FD3B8B3EE015C /* PBXTargetDependency */,
+			);
+			name = "Pods-WJGlobalTimer_Example";
+			productName = "Pods-WJGlobalTimer_Example";
+			productReference = 94AB59B6EE2B610F4FEFDF61853CBAB6 /* libPods-WJGlobalTimer_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E433295D69518797F69D4A11B5F6492 /* WJGlobalTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0D396857B2C0C3A3D44C4B58A92A4D /* Build configuration list for PBXNativeTarget "WJGlobalTimer" */;
+			buildPhases = (
+				8C910E70F86E80EDB251F8A28BDDB7C4 /* Sources */,
+				996B6B74C2521B3945817CB3AAFF14CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJGlobalTimer;
+			productName = WJGlobalTimer;
+			productReference = D827EA9B46CE1A41CAAD1C96111A5310 /* libWJGlobalTimer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 51D48FA4D4127C955A2250DD287930F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619428875988CBFEE681061509AA0731 /* Pods-WJGlobalTimer_Example */,
+				8E433295D69518797F69D4A11B5F6492 /* WJGlobalTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8360A15B238F84E9CF754D1652388DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5220CF11FDA93470009BAA5 /* ZXCCycleTimer.m in Sources */,
+				E5220CEF1FDA93470009BAA5 /* ZXCBlockQueue.m in Sources */,
+				E5220CF01FDA93470009BAA5 /* ZXCCountDownBlockObj.m in Sources */,
+				A5D271678CBC4F304A1054542C56A7FD /* Pods-WJGlobalTimer_Example-dummy.m in Sources */,
+				E5220CF21FDA93470009BAA5 /* ZXCQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C910E70F86E80EDB251F8A28BDDB7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5BE03DD8102A565601C875ACEA2D7A /* ReplaceMe.m in Sources */,
+				5CA8D7D6764ED007EFF9C983AF9203DB /* WJGlobalTimer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1610E34320FFF6EA6B8FD3B8B3EE015C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJGlobalTimer;
+			target = 8E433295D69518797F69D4A11B5F6492 /* WJGlobalTimer */;
+			targetProxy = B568A8F83DA0A4F7EE66A3E7FAC82960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E745B702710F7CB5BE5750AA9593892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC90FFFAB4C7FAB33B243099C4977C32 /* WJGlobalTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJGlobalTimer/WJGlobalTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33745073EF819A210BDF5393F1BE5385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9F72E8C2956A19CE85605737AC4E88 /* Pods-WJGlobalTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C62B3E823FF8E841AD696292F98A08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD3B1439C6892CC0D174122DA7DE48A /* Pods-WJGlobalTimer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA7AF2F49EA4A590BE821FF5A9E4141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC90FFFAB4C7FAB33B243099C4977C32 /* WJGlobalTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJGlobalTimer/WJGlobalTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA7B514D3EF8FDC2CA1992AEDBCD130 /* Build configuration list for PBXNativeTarget "Pods-WJGlobalTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33745073EF819A210BDF5393F1BE5385 /* Debug */,
+				6C62B3E823FF8E841AD696292F98A08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0D396857B2C0C3A3D44C4B58A92A4D /* Build configuration list for PBXNativeTarget "WJGlobalTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E745B702710F7CB5BE5750AA9593892 /* Debug */,
+				6CA7AF2F49EA4A590BE821FF5A9E4141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
